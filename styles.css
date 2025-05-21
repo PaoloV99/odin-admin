@@ -5,13 +5,12 @@ body {
     min-height: 100vh;
 
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 6fr;
 }
 
 .sidebar {
-    background-color: antiquewhite;
-
+    background-color: blue;
     grid-row: 1 / -1;
 }
 
@@ -21,6 +20,28 @@ body {
 
 .main-content {
     background-color:blueviolet;
-
     grid-row: 2 / -1;
 }
+
+/* sidebar */
+
+.dash-title {
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+}
+
+.navigation, .branding {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 100px;
+
+    font-size: 24px;
+    font-weight: 500;
+    color:white;
+}
+/* 
+.sidebar {
+    gap: 20px
+} */
