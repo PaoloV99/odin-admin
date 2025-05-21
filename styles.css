@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 6fr;
+}
+
+.sidebar {
+    background-color: antiquewhite;
+
+    grid-row: 1 / -1;
+}
+
+.header {
+    background-color: aqua;
+}
+
+.main-content {
+    background-color:blueviolet;
+
+    grid-row: 2 / -1;
+}
